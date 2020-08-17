@@ -1,0 +1,27 @@
+.pattern {
+  background-image: url("./img/background.jpeg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  padding-left: 2rem;
+  padding-top: 3rem;
+}
+
+.mt {
+  margin-top: (spacer * 0.5) !important;
+}
+.card-text {
+  float: top;
+  padding: 0.8rem !important;
+  margin: 1rem !important;
+}
+.card-img {
+  inline-size: 15rem;
+}
+.bottom-line {
+  height: 2px;
+  width: 32rem;
+  display: block;
+  background: lightgrey;
+  margin: 0 auto 1rem auto;
+}
