@@ -3,17 +3,11 @@
   height: 90vh;
   background-size: cover;
   background-position: center;
-  padding-left: 2rem;
-  padding-top: 3rem;
-}
-
-.mt {
-  margin-top: (spacer * 0.5) !important;
+  padding-left: 1.5rem;
+  padding-top: 1em;
 }
 .card-text {
   float: top;
-  padding: 0.8rem !important;
-  margin: 1rem !important;
 }
 .card-img {
   inline-size: 15rem;
