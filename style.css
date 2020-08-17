@@ -1,6 +1,6 @@
 .pattern {
   background-image: url("./img/background.jpeg");
-  height: 90vh;
+  height: 180vh;
   background-size: cover;
   background-position: center;
   padding-left: 1.5rem;
@@ -12,10 +12,28 @@
 .card-img {
   inline-size: 15rem;
 }
+/* img {
+  max-width: 100%;
+  height: auto;
+}*/
 .bottom-line {
   height: 2px;
   width: 32rem;
   display: block;
   background: lightgrey;
   margin: 0 auto 1rem auto;
+}
+.bottom-line-portfolio {
+  height: 2px;
+  width: 46rem;
+  display: block;
+  background: lightgrey;
+  margin: 0 auto 0.25rem auto;
+}
+
+.img350 {
+  height: 350px;
+  width: 350px;
+  margin-bottom: 2px;
+  margin-top: 2px;
 }
