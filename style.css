@@ -1,25 +1,26 @@
-.body {
-  background-image: url("./img/background.jpeg");
-  background-size: cover;
+/* Media Queries */
+@media (max-width: 768px) {
+  #fourth {
+    margin-top: 14px;
+  }
 }
-.pattern-portfolio {
+@media (max-width: 768px) {
+  .img350 {
+    inline-size: 250px;
+  }
+}
+
+body {
   background-image: url("./img/background.jpeg");
-  /* height: 100vh; */
   background-size: cover;
-  background-position: center;
-  padding-left: 1.5rem;
-  padding-top: 1em;
 }
 .card-text {
   float: top;
 }
 .card-img {
-  inline-size: 15rem;
+  inline-size: 200px;
 }
-/* img {
-  max-width: 100%;
-  height: auto;
-}*/
+
 .bottom-line {
   height: 2px;
   width: 95%;
@@ -35,12 +36,6 @@
   margin: 0 auto 0.25rem auto;
 }
 
-.img350 {
-  height: 350px;
-  width: 350px;
-  margin-bottom: 2px;
-  margin-top: 2px;
-}
 .footer {
   position: fixed;
   left: 0;
@@ -49,4 +44,8 @@
 }
 .thick-border {
   border-width: 3px;
+}
+.img350 {
+  height: 350px;
+  width: 350px;
 }
