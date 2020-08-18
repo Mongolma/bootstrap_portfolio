@@ -1,10 +1,6 @@
-.pattern {
+.body {
   background-image: url("./img/background.jpeg");
-  height: 100vh;
-
-  background-position: center;
-  padding-left: 1.5rem;
-  padding-top: 1em;
+  background-size: cover;
 }
 .pattern-portfolio {
   background-image: url("./img/background.jpeg");
