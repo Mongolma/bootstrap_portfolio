@@ -1,6 +1,14 @@
 .pattern {
   background-image: url("./img/background.jpeg");
-  height: 180vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-left: 1.5rem;
+  padding-top: 1em;
+}
+.pattern-portfolio {
+  background-image: url("./img/background.jpeg");
+  height: 100vh;
   background-size: cover;
   background-position: center;
   padding-left: 1.5rem;
@@ -36,4 +44,7 @@
   width: 350px;
   margin-bottom: 2px;
   margin-top: 2px;
+}
+.thick-border {
+  border-width: 3px;
 }
