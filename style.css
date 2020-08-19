@@ -9,6 +9,16 @@
     inline-size: 250px;
   }
 }
+@media (max-width: 768px) {
+  .img350 {
+    inline-size: 250px;
+  }
+}
+@media (max-width: 375px) {
+  #smaller-device1 {
+    margin-right: 60px;
+  }
+}
 
 body {
   background-image: url("./img/background.jpeg");
@@ -46,6 +56,6 @@ body {
   border-width: 3px;
 }
 .img350 {
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
 }
