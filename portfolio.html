@@ -3,17 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- bootstrap css link -->
+    <!-- Bootstrap css link -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <!-- Font awesome link for social media icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Css -->
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="#">Mongolmaa Gurbazar</a>
       <button
@@ -46,62 +54,93 @@
         </ul>
       </div>
     </nav>
-
     <!-- </nav> -->
-    <div class="container card mb-3 mt-3" style="max-width: 580px;">
+    <!-- Main content -->
+    <main class="container card pb-3 mt-3" style="max-width: 640px;">
       <div class="row">
         <h1 class="text-success mt-3 ml-3">Portfolio</h1>
         <div class="col-sm-12 col-md-12 col-lg-12">
-          <div class="card mb-3 mt-3" id="smaller-device1" ></div>
+          <div class="card mb-3 mt-3"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 ml-3 mr-5">
-          <img src="./img/me.jpeg" alt="" class="img-responsive img350" />
+        <div class="col-md-4 ml-4 mr-5" id="smaller-device1">
+          <img
+            src="./img/oriol-portell-AbwqpFnBDms-unsplash.jpg"
+            alt="Image of fruit"
+            class="img-responsive img350"
+          />
         </div>
-        <div class="col-md-4 ml-4">
-          <img src="./img/me.jpeg" alt="" class="img-responsive img350" />
+        <div class="col-md-4 ml-4" id="smaller-device2">
+          <img
+            src="./img/papaya.jpg"
+            alt="Image of papaya"
+            class="img-responsive img350"
+          />
         </div>
       </div>
-   
-      <div class="row">
-        <div class="col-md-4 mt-4 ml-3 mr-3">
-          <img src="./img/me.jpeg" alt="" class="img-responsive img350" />
-        </div>
-        <div class="col-md-4 mt-4 ml-5">
-          <img src="./img/me.jpeg" alt="" class="img-responsive img350" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 mt-3 ml-1">
-          <img src="./img/me.jpeg" alt="" class="img-responsive img350" />
-        </div>
-        
-      </div>
-    </div>
-  </div>
 
-    <!-- bootstrap js link -->
+      <div class="row">
+        <div class="col-md-4 mt-4 ml-4 mr-4" id="smaller-device3">
+          <img
+            src="./img/lemon.jpg"
+            alt="Image of lemon"
+            class="img-responsive img350"
+          />
+        </div>
+        <div class="col-md-4 mt-4 ml-5" id="smaller-device4">
+          <img
+            src="./img/mae-mu-hkMGgTVBTSA-unsplash.jpg"
+            alt="Image of sliced orange in blue background"
+            class="img-responsive img350"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-4 ml-4" id="smaller-device5">
+          <img
+            src="./img/dainis-graveris-ifFwXbrkTcU-unsplash.jpg"
+            alt="Image of ananas"
+            class="img-responsive img350"
+          />
+        </div>
+      </div>
+    </main>
+
+    <!-- Bootstrap js link -->
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <!-- bootstrap jquery link -->
+
+    <!-- Bootstrap jquery link -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Bootstrap popper link -->
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Sticky footer contains social media links -->
+    <footer
+      class="card-footer footer text-white-50 bg-dark text-center border-success thick-border"
+    >
+      <a href="https://www.facebook.com/" class="fa fa-facebook mr-4"></a>
+      <a
+        href="https://www.instagram.com/mongolma/"
+        class="fa fa-instagram mr-4"
+      ></a>
+      <a href="mailto:mongolmaa555@gmail.com" class="fa fa-google mr-2"></a>
+
+      <br />
+      &copy Copyright 2018 Mongolmaa
+    </footer>
   </body>
-  <footer
-    class="card-footer footer text-white-50 bg-dark text-center border-success thick-border"
-  >
-    &copy Copyright 2018 Mongolmaa
-  </footer>
 </html>
