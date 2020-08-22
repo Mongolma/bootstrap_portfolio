@@ -11,4 +11,4 @@ In this homework assessment, i performed the folllowings.
 3. Sticky footer with social media links
 4. Responsive images
 
-SCREENSHOT 
+SCREENSHOT ![FDE1B923-84E5-4D11-8A31-DFF6BD41F554_1_105_c](https://user-images.githubusercontent.com/61842637/90966586-eae58780-e4a1-11ea-9244-4640c7600b7d.jpeg)
