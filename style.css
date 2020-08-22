@@ -9,26 +9,28 @@
     inline-size: 250px;
   }
 }
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .bottom-line-portfolio {
     justify-items: center;
   }
-}
+} */
+
 @media (max-width: 375px) {
   #smaller-device1 {
     margin-bottom: 20px;
-    padding-left: 3rem;
+    /* padding-left: 2rem; */
   }
+
   #smaller-device2 {
-    padding-left: 40px;
+    margin-top: 1rem;
+    padding-left: 20px;
   }
   #smaller-device3 {
     padding-left: 46px;
   }
-
-  #smaller-device5 {
+  * #smaller-device5 {
     margin-top: 50px;
-    padding-left: 60px;
+    padding-left: 50px;
   }
 }
 
@@ -85,4 +87,8 @@ body {
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
+}
+
+.bg {
+  background-color: white;
 }
